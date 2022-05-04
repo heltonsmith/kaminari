@@ -1,0 +1,2 @@
+module AveHelper
+end

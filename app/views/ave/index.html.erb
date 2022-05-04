@@ -1,0 +1,18 @@
+
+
+<%= @resultado[0]["name"]["spanish"] %>
+
+<br><br><hr>
+
+
+<% @pager.each do |item| %>
+
+    <%= item["name"]["spanish"] %>
+    <br>
+    <img src="<%= item["images"]["main"] %>" alt="">
+
+    <br><hr>
+
+<% end %>
+
+<%= paginate @pager %>
